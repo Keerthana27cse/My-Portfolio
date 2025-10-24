@@ -47,7 +47,7 @@ export const About = () => {
             <Container>
                 <div className="text-center mb-5">
                     <a
-                        href="https://drive.google.com/file/d/1m2VT-jzoTAOLd8217zNz-YiJxDyCTMn0/view?usp=drive_link"
+                        href="https://drive.google.com/drive/folders/1GCfKddepQp66mKU8MxEoe3Bc-imj2_rf?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ textDecoration: 'none', color: 'inherit' }}
