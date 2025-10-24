@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "CSE 👋" ];
+  const toRotate = [ "CSE <span class='wave'>👋</span>" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,10 +56,12 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Keerthana`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack  Developer"]'><span className="wrap">{text}</span></span></h1>
-<p>
-I’m a passionate Full Stack Developer who enjoys turning complex problems into simple, beautiful, and intuitive solutions. I specialize in building scalable web applications using modern technologies like React, Spring Boot, and MySQL, with a strong focus on clean design and efficient performance.
-</p>
+                <h1>{`Hi! I'm Keerthana`} <span className="wrap"dangerouslySetInnerHTML={{ __html: text }}></span>
+                </h1>
+
+                      <p>
+                      I’m a passionate Full Stack Developer who enjoys turning complex problems into simple, beautiful, and intuitive solutions. I specialize in building scalable web applications using modern technologies like React, Spring Boot, and MySQL, with a strong focus on clean design and efficient performance.
+                      </p>
               </div>}
             </TrackVisibility>
           </Col>
