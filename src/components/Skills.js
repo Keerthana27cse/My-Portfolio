@@ -15,7 +15,6 @@ const structuredSkills = [
       { icon: <SiCss3 color="#264de4" />, name: "CSS3" },
       { icon: <SiJavascript color="#f0db4f" />, name: "JavaScript" },
       { icon: <FaReact color="#61DBFB" />, name: "React" },
-      { icon: <SiBootstrap color="#563d7c" />, name: "Bootstrap" },
     ],
   },
   {
@@ -25,7 +24,6 @@ const structuredSkills = [
       { icon: <FaJava color="#f89820" />, name: "Java" },
       { icon: <SiSpringboot color="#6db33f" />, name: "Spring Boot" },
       { icon: <FaNodeJs color="#68a063" />, name: "Node.js" },
-      { icon: <FaPython color="#FFD43B" />, name: "Python" },
       { icon: <SiMysql color="#00758f" />, name: "MySQL" },
     ],
   },
