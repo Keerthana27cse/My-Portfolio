@@ -25,8 +25,9 @@
 .wave {
   display: inline-block;
   transform-origin: 70% 70%;
-  animation: wave-animation 2.5s infinite;
+  animation: wave-animation 3s infinite;
 }
+
 
 @keyframes wave-animation {
   0% { transform: rotate(0deg); }

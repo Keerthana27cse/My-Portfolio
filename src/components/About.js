@@ -38,9 +38,9 @@ const workshops = [
 ];
 
 const contactDetails = {
-    phone: "+91 9488105188", 
-    email: "keerthii2728@gmail.com", 
-    location:  "Gudalur, The Nilgiris - 643211" 
+    phone: " +91 9488105188", 
+    email: " keerthii2728@gmail.com", 
+    location:"Gudalur, The Nilgiris - 643211" 
 };
 
 // Enhanced TimelineItem with hover effects and more elegance
@@ -139,7 +139,7 @@ const FlipCard = ({ title, icon, items, iconColor }) => {
                 perspective: '1000px',
                 cursor: 'pointer',
                 transition: 'transform 0.6s',
-                transformStyle: 'preserve-3d',
+               // transformStyle: 'preserve-3d',
             }}
             onMouseEnter={() => setIsFlipped(true)}
             onMouseLeave={() => setIsFlipped(false)}
